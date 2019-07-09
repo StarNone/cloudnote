@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>笔记本</title>
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/reset.css">
+    <link rel="stylesheet" href="../stylesheets/index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="w1170 wrap">
+            <h1>云笔记</h1>
+            <div class="head-btn">
+                <form action=""> 
+                    <button type="submit" formaction="/write">写笔记</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="w1170 content">
+        <div class="left-box">
+            <img src="../images/banner.jpg" alt="">
+            <div class="desc">十三亿人都会用的云笔记</div>
+        </div>
+        <div class="right-box">
+           <div class="login">
+            <div class="login-box">
+                    <div class="item">
+                        <input type="text" placeholder="账号" name="email">
+                    </div>
+                    <div class="item">
+                        <input type="password" placeholder="密码" name="password">
+                    </div>
+                    <div class="item">
+                        <button class="item-btn btn1"><span>登陆</span></button>
+                    </div>
+                <form action="/register" method="POST">
+                    <div class="item">
+                        <button class="item-btn btn2"><span>注册</span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+        
+        <div class="bottom-box">
+            
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="../js/index.js"></script>
+</html>
